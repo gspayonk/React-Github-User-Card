@@ -59,7 +59,7 @@ render() {
             <User userData={this.state.user} />
         </div>
 
-        <h2>Followers: </h2>
+        <h2>Followers</h2>
 
         <div className="followers">
             <Followers followers={this.state.followers} />

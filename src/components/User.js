@@ -2,11 +2,13 @@ import React from 'react';
 
 const User = (props) => {
 
-    const { avatar_url, bio, login, created_at, followers, html_url } = props.userData;
+    const { avatar_url, bio, login, created_at, followers, html_url} = props.userData;
     
     return (
     <div>
-        <div src={avatar_url} />
+        <div>
+            <img src={avatar_url} />
+        </div>
         
         <div>{login}</div>
 
@@ -23,6 +25,10 @@ const User = (props) => {
             <div name='user' /> Followed by {followers} users
         </a>
         </div>
+
+        {/* <div>
+        <img src="http://ghchart.rshah.org/gspayonk" alt="Github chart" />
+        </div> */}
 
     </div>
 )
