@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700i|Source+Sans+Pro&display=swap");
+body {
+font-family: "Source Sans Pro", sans-serif;
+overflow-x: hidden;
+background-color: #56a9ad;
+background-image: url('https://cdn.pixabay.com/photo/2017/01/08/21/11/wood-1963988_1280.jpg');
+background-size: cover;
+background-repeat: repeat;
+padding: 0;
+margin: 0;
+}
+#root {
+width: 100vw;
+height: 100vh;
+color: #2a2223;
+margin: 0;
+}
+h1 {
+color: black;
+font-size: 50px;
+text-align: center;
+margin: 0;
+}
+h2 {
+color: black;
+font-size: 25px;
+background: #2eb29a;
+margin: 0;
+padding: 10px;
+text-align: center;
+}
+
+p {
+padding: 10px;
+font-size: 18px;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 3% 0;
+}
+
+.followers {
+    text-align: center;
+    background-color: hsla(0, 100%, 90%, 0.3);
+}
+
+.user {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
